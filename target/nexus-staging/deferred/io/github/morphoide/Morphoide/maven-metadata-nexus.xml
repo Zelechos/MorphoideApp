@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>src.io.github.morphoide</groupId>
+  <groupId>io.github.morphoide</groupId>
   <artifactId>Morphoide</artifactId>
   <versioning>
     <versions>
       <version>0.2.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20230331075005</lastUpdated>
+    <lastUpdated>20230331142557</lastUpdated>
   </versioning>
 </metadata>
