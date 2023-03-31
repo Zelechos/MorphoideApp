@@ -3,8 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>io.github.morphoide</groupId>
+<!--    src/io/github/morphoide/Morphoide.java-->
+    <groupId>src.io.github.morphoide</groupId>
     <artifactId>Morphoide</artifactId>
     <version>0.2.0-SNAPSHOT</version>
 
@@ -80,7 +80,7 @@
 
     <name>Morphoide</name>
     <description>Morphoide It is a dynamic library open source that is easy to use and with good documentation that tries to achieve a more user-friendly experience when programming with the Java programming language.</description>
-    <url>https://github.com/Zelechos/PragmaticMorphoide/tree/master/Morphoide/src/main/java/</url>
+    <url>https://github.com/Zelechos/Ether/src/io/github/morphoide</url>
 
     <licenses>
         <license>
@@ -93,7 +93,7 @@
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
-            <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+            <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>ossrh</id>
@@ -102,9 +102,9 @@
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:git://github.com/Zelechos/PragmaticMorphoide.git</connection>
-        <developerConnection>scm:git:ssh://github.com:Zelechos/PragmaticMorphoide.git</developerConnection>
-        <url>https://github.com/Zelechos/PragmaticMorphoide/tree/master/Morphoide/src/main/java/</url>
+        <connection>scm:git:git://github.com/Zelechos/Ether.git</connection>
+        <developerConnection>scm:git:ssh://github.com:Zelechos/Ether.git</developerConnection>
+        <url>https://github.com/Zelechos/Ether/src/io/github/morphoide</url>
     </scm>
 
     <developers>
