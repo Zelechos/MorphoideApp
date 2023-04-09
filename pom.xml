@@ -4,15 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.morphoide</groupId>
+    <groupId>io.github.zelechos</groupId>
     <artifactId>Morphoide</artifactId>
-    <version>0.2.0-SNAPSHOT</version>
+    <version>0.3.9</version>
 
     <build>
+        <pluginManagement>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
@@ -66,17 +68,20 @@
                         <goals>
                             <goal>sign</goal>
                         </goals>
+                        <configuration>
+                            <keyname>0x3F9C8C0C</keyname>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
         </plugins>
-
+    </pluginManagement>
     </build>
     <packaging>jar</packaging>
 
     <name>Morphoide</name>
     <description>Morphoide It is a dynamic library open source that is easy to use and with good documentation that tries to achieve a more user-friendly experience when programming with the Java programming language.</description>
-    <url>https://github.com/Zelechos/Morphoide</url>
+    <url>https://github.com/Zelechos/Morphoide/src</url>
 
     <licenses>
         <license>
@@ -97,10 +102,11 @@
         </repository>
     </distributionManagement>
 
+
     <scm>
         <connection>scm:git:git://github.com/Zelechos/Morphoide.git</connection>
         <developerConnection>scm:git:ssh://github.com:Zelechos/Morphoide.git</developerConnection>
-        <url>https://github.com/Zelechos/Morphoide</url>
+        <url>https://github.com/Zelechos/Morphoide/src</url>
     </scm>
 
     <developers>
